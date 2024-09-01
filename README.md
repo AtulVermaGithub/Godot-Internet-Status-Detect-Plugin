@@ -42,6 +42,9 @@ This plugin adds functionality to detect intenet connection in Godot apps. It ju
   - Returns `void`.
   - Updates current status and stores in above `status` variable.
   - You can use this function in any trigger like `on_button_pressed()` to update status
+## ![](icon.png?raw=true) Signals
+There are two signals `has_internet` and `no_internet`, emitted when internet is active and internet is not active respectively.
+![image](https://github.com/user-attachments/assets/a180a317-369a-42fa-a166-d9153e7e55d7)
 
 ## ![](icon.png?raw=true) Usage/Examples
 
